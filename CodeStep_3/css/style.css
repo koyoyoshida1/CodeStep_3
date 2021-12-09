@@ -1,0 +1,189 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #333;
+}
+
+header img {
+  width: 15%;
+}
+
+.inner_1 {
+  margin: 5% 15% 0;
+}
+
+.inner_2 {
+  margin: 0 15%;
+}
+
+.inner_3 {
+  margin: 5% 20%;
+}
+
+.ttl {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.item {
+  background: #eee;
+  padding: 7%;
+}
+
+#index .item_list {
+  border: solid 1px #333;
+  margin: 2% 5%;
+}
+
+#index .item_list ol {
+  margin-left: 20%;
+}
+
+#index .item_list li {
+  margin: 3% 0 3%;
+}
+
+#photo ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+#photo ul li {
+  width: 49%;
+  margin-bottom: 2%;
+  text-decoration: none;
+}
+
+#photo ul li img {
+  vertical-align: bottom;
+}
+
+#detail .item_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#detail .item_list dl {
+  width: 35%;
+  border-right: solid 1px #333;
+}
+
+#detail .item_list dt {
+  font-weight: bold;
+}
+
+#detail .item_list dd {
+  margin-bottom: 3%;
+}
+
+#detail .item_list dd :last-child {
+  margin-bottom: 0;
+}
+
+#detail .item_list_txt {
+  width: 65%;
+  padding-left: 6%;
+}
+
+#detail .item_list_txt p {
+  margin-bottom: 3%;
+}
+
+#detail .item_list_txt a:hover {
+  opacity: 0.8;
+}
+
+footer {
+  font-size: 0.625rem;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+@media screen and (max-width: 1078px) {
+  #index .item ol {
+    margin: 0 7%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .inner_1 {
+    margin: 5% 1% 0;
+  }
+  .inner_2 {
+    margin: 0 1%;
+  }
+  .inner_3 {
+    margin: 5% 1%;
+  }
+  #index .item_list ol {
+    margin: 0 0 0 25%;
+  }
+  #photo ul {
+    display: block;
+  }
+  #photo ul li {
+    width: 100%;
+  }
+  #detail .item_list {
+    display: block;
+  }
+  #detail .item_list dl {
+    border-right: none;
+    border-bottom: solid 1px #333;
+    width: 100%;
+  }
+  #detail .item_list dd {
+    margin-bottom: 1%;
+  }
+  #detail .item_list_txt {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 5%;
+  }
+  #detail .item_list_txt p {
+    margin-bottom: 1%;
+  }
+}
+
+@media screen and (max-width: 705px) {
+  #index .item_list ol {
+    margin: 0 0 0 10%;
+  }
+}
+
+@media screen and (max-width: 588px) {
+  body {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 457px) {
+  body {
+    font-size: 0.5rem;
+  }
+  #index .item_list ol {
+    margin: 0 0 0 5%;
+  }
+}

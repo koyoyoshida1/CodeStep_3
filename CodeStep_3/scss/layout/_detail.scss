@@ -1,0 +1,33 @@
+#detail .item {
+  &_list {
+    display: flex;
+    // 直下の要素を横並び
+    dl {
+      width: 35%;
+      border-right: solid 1px $black;
+    }
+    dt {
+      font-weight: bold;
+    }
+    dd{
+      margin-bottom: 3%;
+      
+      :last-child {
+        margin-bottom: 0;
+      }
+    }
+    
+    &_txt {
+      width: 65%;
+      padding-left: 6%;
+      
+      p {
+        margin-bottom: 3%;
+      }
+      
+      a:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}

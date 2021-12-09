@@ -1,0 +1,22 @@
+#photo ul {
+  // 4つの画像を"田"にしたいとき行う
+  display: flex;
+  flex-wrap: wrap;
+  // 画像が合わせて100%になったら下に繰り返す。
+  justify-content: space-between;
+  // 両端揃えで均等に配置する。(空間を手際よく配置)
+  list-style: none;
+  // 点を無くす
+
+  li {
+    width: 49%;
+    margin-bottom: 2%;
+    text-decoration: none;
+
+    img{
+      vertical-align: bottom;
+      // 画像の下にできる隙間を消す
+    }
+  }
+}
+

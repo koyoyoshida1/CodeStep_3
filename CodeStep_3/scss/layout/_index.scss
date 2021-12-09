@@ -1,0 +1,16 @@
+#index {
+  .item {
+    &_list {
+      border: solid 1px $black;
+      margin: 2% 5%;
+
+      ol {
+        margin-left: 20%;
+      }
+
+      li {
+        margin: 3% 0 3%;
+      }
+    }
+  }
+}
